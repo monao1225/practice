@@ -46,11 +46,15 @@
   <ItemGroup>
     <Folder Include="HelloDjango\" />
     <Folder Include="HelloDjango\migrations\" />
+    <Folder Include="HelloDjango\static\" />
     <Folder Include="HelloDjango\templates\" />
     <Folder Include="practice\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HelloDjango\static\style.css" />
+    <Content Include="HelloDjango\templates\about.html" />
     <Content Include="HelloDjango\templates\index.html" />
+    <Content Include="HelloDjango\templates\layout.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
   </ItemGroup>
