@@ -1,4 +1,9 @@
 {% extends "layout.html" %}
 {% block content %}
 <span class="message">{{ message }}</span>{{ content }}
+<form action="#" method="post">
+    <input type="text" name="name" />
+    <input type="text" name="text" />
+    <input type="submit" value="更新" />
+</form>
 {% endblock %}
